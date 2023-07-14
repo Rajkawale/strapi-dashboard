@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portpolios",
+  "info": {
+    "singularName": "portpolio",
+    "pluralName": "portpolios",
+    "displayName": "portpolio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "project_id": {
+      "type": "integer"
+    },
+    "project_title": {
+      "type": "string"
+    },
+    "project_type": {
+      "type": "string"
+    },
+    "project_technology": {
+      "type": "string"
+    },
+    "project_background": {
+      "type": "string"
+    },
+    "project_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "project_description": {
+      "type": "text"
+    },
+    "project_redirection": {
+      "type": "string"
+    }
+  }
+}
