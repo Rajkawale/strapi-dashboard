@@ -14,8 +14,11 @@
     "@strapi/plugin-users-permissions": "4.11.4",
     "@strapi/provider-upload-cloudinary": "^4.11.4",
     "@strapi/strapi": "4.11.4",
+    "bull": "^4.10.4",
+    "bullmq": "^4.3.0",
     "global": "^4.4.0",
-    "pg": "8.8.0",
+    "pg": "^8.8.0",
+    "save": "^2.9.0",
     "yarn": "^1.22.19"
   },
   "author": {

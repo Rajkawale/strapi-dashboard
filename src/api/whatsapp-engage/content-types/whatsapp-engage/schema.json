@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whatsapp_engages",
+  "info": {
+    "singularName": "whatsapp-engage",
+    "pluralName": "whatsapp-engages",
+    "displayName": "WhatsApp Engage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "message_template": {
+      "type": "richtext"
+    },
+    "whatsapp_number": {
+      "type": "text"
+    },
+    "message_type": {
+      "type": "enumeration",
+      "enum": [
+        "to"
+      ]
+    }
+  }
+}
